@@ -24,20 +24,20 @@ walls of each room, she goes on promoting incursions to the same room until she 
 empty.
 The crawling movement of party Gj, with j = 0, 1, ... , (M-1)/K-1, requires successive increments of
 position that obey the following rules
-	– the ingoing movement (outside gathering site to museum room) is performed by taking positive
+	* – the ingoing movement (outside gathering site to museum room) is performed by taking positive
 position increments and the outgoing movement (museum room to outside gathering site) is
 performed by taking negative position increments
-	– the distance between the outside gathering site and the museum room i is Di length units, with
+	* – the distance between the outside gathering site and the museum room i is Di length units, with
 i = 0, 1, ... , N-1
-	– the ingoing movement only starts when all group members have been selected and are ready to
+	* – the ingoing movement only starts when all group members have been selected and are ready to
 proceed, the outgoing movement only starts when all group members have taken a canvass or are
 empty-handed, because no more paintings are hanging in the room walls
-	– the thieves in a party crawl in line, can overtake one another, but can never stay side by side, nor
+	* – the thieves in a party crawl in line, can overtake one another, but can never stay side by side, nor
 be separated by a distance larger than S length units
-	– at each iteration step, the thief tj, with j = 1, ... , M-1, can change his position from 1 to MDl length
+	* – at each iteration step, the thief tj, with j = 1, ... , M-1, can change his position from 1 to MDl length
 units, always moving as fast as he possibly can without violating the constraints imposed by the
 previous rule
-	– the maximum displacement, MDt , is specific to each thief tj, the thieves are not all equal, some are
+	* – the maximum displacement, MDt , is specific to each thief tj, the thieves are not all equal, some are
 more agile and faster than others.
 
 Assume there are 7 thieves in the whole, master included, the maximum displacement of the ordinary
@@ -55,20 +55,19 @@ way, must be included.
 ## 3 Solutions
 
 There are three solutions presented in this repository:
-
-**1.** Using java’s Synchronized Methods and Threads to implement the shared areas/variables and Threads actions(concurrency) within them. *(monitors)*
-**2.** Implemented a client-server approach that active entities trade messages with passive entities.
+* **1.** Using java’s Synchronized Methods and Threads to implement the shared areas/variables and Threads actions(concurrency) within them. *(monitors)*
+* **2.** Implemented a client-server approach that active entities trade messages with passive entities.
 	This solution tries to demonstrate a simple simulation how java’s RMI works using messages over TCP sockets. *(Messages)*
-**3.** Implementation of a full java RMI solution where shared areas are registered and players *(RMI)*
+* **3.** Implementation of a full java RMI solution where shared areas are registered and players *(RMI)*
 
 Each solution produces a logging file with all the details.
 For the second and third solution it was developed a script in python 3.5 to run the solution on a set of specified machines.
 
 ## Threads life cycle (active entities)
 ### Master Thief life cycle
-![Master Thief life cycle](https://github.com/akaeme/HeistToTheMuseum/img/MasterThief.png)
+![Master Thief life cycle](img/MasterThief.png)
 ### Ordinary Thief life cycle
-![Ordinary Thief life cycle](https://github.com/akaeme/HeistToTheMuseum/img/OrdinaryThief.png)
+![Ordinary Thief life cycle](img/OrdinaryThief.png)
 
 ## Passive entities 
 - Concentration Site
