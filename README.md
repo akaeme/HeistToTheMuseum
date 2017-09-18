@@ -55,7 +55,7 @@ way, must be included.
 ## 3 Solutions
 
 There are three solutions presented in this repository:
-* **1.** Using java’s Synchronized Methods to implement the shared areas/variables and Threads actions(concurrency) within them. *(monitors)*
+* **1.** Using java Synchronized Methods to implement the shared areas/variables and Thread class to use threads and perform actions(concurrency) within shared areas. *(Monitors)*
 * **2.** Implemented a client-server approach that active entities trade messages with passive entities.
 	This solution tries to demonstrate a simple simulation how java’s RMI works using messages over TCP sockets. *(Messages)*
 * **3.** Implementation of a full java RMI solution where shared areas are registered and players *(RMI)*
