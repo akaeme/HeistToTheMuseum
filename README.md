@@ -24,20 +24,20 @@ walls of each room, she goes on promoting incursions to the same room until she 
 empty.
 The crawling movement of party Gj, with j = 0, 1, ... , (M-1)/K-1, requires successive increments of
 position that obey the following rules
-	* – the ingoing movement (outside gathering site to museum room) is performed by taking positive
+* the ingoing movement (outside gathering site to museum room) is performed by taking positive
 position increments and the outgoing movement (museum room to outside gathering site) is
 performed by taking negative position increments
-	* – the distance between the outside gathering site and the museum room i is Di length units, with
+* the distance between the outside gathering site and the museum room i is Di length units, with
 i = 0, 1, ... , N-1
-	* – the ingoing movement only starts when all group members have been selected and are ready to
+* the ingoing movement only starts when all group members have been selected and are ready to
 proceed, the outgoing movement only starts when all group members have taken a canvass or are
 empty-handed, because no more paintings are hanging in the room walls
-	* – the thieves in a party crawl in line, can overtake one another, but can never stay side by side, nor
+* the thieves in a party crawl in line, can overtake one another, but can never stay side by side, nor
 be separated by a distance larger than S length units
-	* – at each iteration step, the thief tj, with j = 1, ... , M-1, can change his position from 1 to MDl length
+* at each iteration step, the thief tj, with j = 1, ... , M-1, can change his position from 1 to MDl length
 units, always moving as fast as he possibly can without violating the constraints imposed by the
 previous rule
-	* – the maximum displacement, MDt , is specific to each thief tj, the thieves are not all equal, some are
+* the maximum displacement, MDt , is specific to each thief tj, the thieves are not all equal, some are
 more agile and faster than others.
 
 Assume there are 7 thieves in the whole, master included, the maximum displacement of the ordinary
