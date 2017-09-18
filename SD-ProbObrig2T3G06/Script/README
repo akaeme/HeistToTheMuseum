@@ -1,0 +1,7 @@
+requirements:
+coloredlogs: sudo pip3 install coloredlogs
+paramiko: sudo pip3 install paramiko
+
+usage:
+help -> python3 run.py -help
+python3 run.py -u -e -k -c 

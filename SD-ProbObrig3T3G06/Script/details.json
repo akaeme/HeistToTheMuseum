@@ -1,0 +1,90 @@
+[
+    {
+        "class": "RMIRegister",
+        "folder": "dir_registry",
+        "file": "registry_com.sh",
+        "type": "Server",
+        "order": 1,
+        "configName": "registry_host",
+        "configPort": "registry_port",
+        "command": "sh registry_com.sh %s %s"
+    },
+    {
+        "class": "LoggerServer",
+        "folder": "dir_serverSide",
+        "file": "2.sh",
+        "type": "Server",
+        "order": 2,
+        "configName": "logger_host",
+        "configPort": "logger_port",
+        "command": "sh 2.sh %s %s"
+    },
+    {
+        "class": "MuseumServer",
+        "folder": "dir_serverSide",
+        "file": "7.sh",
+        "type": "Server",
+        "order": 3,
+        "configName": "museum_host",
+        "configPort": "museum_port",
+        "command": "sh 3.sh %s %s"
+    },
+    {
+        "class": "ControlCollectionSiteServer",
+        "folder": "dir_serverSide",
+        "file": "4.sh",
+        "type": "Server",
+        "order": 4,
+        "configName": "controlcollectionsite_host",
+        "configPort": "controlcollectionsite_port",
+        "command": "sh 4.sh %s %s"
+    },
+    {
+        "class": "AssaultPartyServer_0",
+        "folder": "dir_serverSide",
+        "file": "5.sh",
+        "type": "Server",
+        "order": 5,
+        "configName": "assaultparty0_host",
+        "configPort": "assaultparty0_port",
+        "command": "sh 5.sh %s %s"
+    },
+    {
+        "class": "AssaultPartyServer_1",
+        "folder": "dir_serverSide",
+        "file": "6.sh",
+        "type": "Server",
+        "order": 6,
+        "configName": "assaultparty1_host",
+        "configPort": "assaultparty1_port",
+        "command": "sh 6.sh %s %s"
+    },
+    {
+        "class": "ConcentrationSiteServer",
+        "folder": "dir_serverSide",
+        "file": "4.sh",
+        "type": "Server",
+        "order": 7,
+        "configName": "concentrationsite_host",
+        "configPort": "concentrationsite_port",
+        "command": "sh 7.sh %s %s"
+    },
+    {
+        "class": "MasterThiefClient",
+        "folder": "dir_clientSide",
+        "file": "MasterThiefClient.sh",
+        "type": "Client",
+        "order": 8,
+        "configName": "masterthief_host",
+        "command": "sh MasterThiefClient.sh %s "
+    },
+    {
+        "class": "OrdinaryThiefClient",
+        "folder": "dir_clientSide",
+        "file": "OrdinaryThiefClient.sh",
+        "type": "Client",
+        "order": 9,
+        "configName": "ordinarythief_host",
+        "command": "sh OrdinaryThiefClient.sh %s"
+    }
+]

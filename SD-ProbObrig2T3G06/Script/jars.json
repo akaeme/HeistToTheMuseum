@@ -1,0 +1,65 @@
+[
+    {
+        "class": "CentralizedServer",
+        "package": "ServerSide.Main",
+        "type": "Server",
+        "order": 1,
+        "command": "java -cp assignment2.jar ServerSide.Main.CentralizedServer %s &"
+    },
+    {
+        "class": "LoggerServer",
+        "package": "ServerSide.Main",
+        "type": "Server",
+        "order": 2,
+        "command": "java -cp assignment2.jar ServerSide.Main.LoggerServer %s &"
+    },
+    {
+        "class": "ConcentrationSiteServer",
+        "package": "ServerSide.Main",
+        "type": "Server",
+        "order": 4,
+        "command": "java -cp assignment2.jar ServerSide.Main.ConcentrationSiteServer %s &"
+    },
+    {
+        "class": "ControlCollectionSiteServer",
+        "package": "ServerSide.Main",
+        "type": "Server",
+        "order": 3,
+        "command": "java -cp assignment2.jar ServerSide.Main.ControlCollectionSiteServer %s &"
+    },
+    {
+        "class": "AssaultPartyServer_0",
+        "package": "ServerSide.Main",
+        "type": "Server",
+        "order": 5,
+        "command": "java -cp assignment2.jar ServerSide.Main.AssaultPartyServer_0  %s &"
+    },
+    {
+        "class": "AssaultPartyServer_1",
+        "package": "ServerSide.Main",
+        "type": "Server",
+        "order": 6,
+        "command": "java -cp assignment2.jar ServerSide.Main.AssaultPartyServer_1 %s &"
+    },
+    {
+        "class": "MuseumServer",
+        "package": "ServerSide.Main",
+        "type": "Server",
+        "order": 7,
+        "command": "java -cp assignment2.jar ServerSide.Main.MuseumServer %s &"
+    },
+    {
+        "class": "MasterThiefClient",
+        "package": "ClientSide",
+        "type": "Client",
+        "order": 8,
+        "command": "java -cp assignment2.jar ClientSide.MasterThiefClient %s & > output"
+    },
+    {
+        "class": "OrdinaryThiefClient",
+        "package": "ClientSide",
+        "type": "Client",
+        "order": 9,
+        "command": "java -cp assignment2.jar ClientSide.OrdinaryThiefClient %s "
+    }
+]

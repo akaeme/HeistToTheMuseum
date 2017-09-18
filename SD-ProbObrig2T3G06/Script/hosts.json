@@ -1,0 +1,45 @@
+{
+"user":"sd0306",
+"hosts":[
+    {
+        "hostname": "l040101-ws01.ua.pt",
+        "password": "********"
+    },
+    {
+        "hostname": "l040101-ws02.ua.pt",
+        "password": "********"
+    },
+    {
+        "hostname": "l040101-ws03.ua.pt",
+        "password": "********"
+    },
+    {
+        "hostname": "l040101-ws04.ua.pt",
+        "password": "********"
+    },
+    {
+        "hostname": "l040101-ws05.ua.pt",
+        "password": "********"
+    },
+    {
+        "hostname": "l040101-ws06.ua.pt",
+        "password": "********"
+    },
+    {
+        "hostname": "l040101-ws07.ua.pt",
+        "password": "********"
+    },
+    {
+        "hostname": "l040101-ws08.ua.pt",
+        "password": "********"
+    },
+    {
+        "hostname": "l040101-ws09.ua.pt",
+        "password": "********"
+    },
+    {
+        "hostname": "l040101-ws10.ua.pt",
+        "password": "********"
+    }
+]
+}

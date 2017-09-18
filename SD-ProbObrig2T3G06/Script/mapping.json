@@ -1,0 +1,46 @@
+[
+  {"CentralizedServer":
+      {"hostName": "l040101-ws01.ua.pt",
+        "hostPort": "22369"
+      }
+  },
+  {"LoggerServer":
+      {"hostName": "l040101-ws03.ua.pt",
+        "hostPort": "22365"
+      }
+  },
+  {"ControlCollectionSiteServer":
+      {"hostName": "l040101-ws05.ua.pt",
+        "hostPort": "22360" }
+  },
+  {"ConcentrationSiteServer":
+      {"hostName": "l040101-ws07.ua.pt",
+        "hostPort": "22361"
+      }
+  },
+  {"AssaultPartyServer_0":
+      {"hostName": "l040101-ws09.ua.pt",
+        "hostPort": "22364"
+      }
+  },
+  {"AssaultPartyServer_1":
+      {"hostName": "l040101-ws10.ua.pt",
+        "hostPort": "22363"
+      }
+  },
+  {"MuseumServer":
+      {"hostName": "l040101-ws01.ua.pt",
+        "hostPort": "22362"
+      }
+  },
+  {"MasterThiefClient":
+      {"hostName": "l040101-ws03.ua.pt",
+        "hostPort": "22366"
+      }
+  },
+  {"OrdinaryThiefClient":
+      {"hostName": "l040101-ws04.ua.pt",
+        "hostPort": "22367"
+      }
+  }
+]
