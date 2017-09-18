@@ -1,6 +1,6 @@
 # HeistToTheMuseum
 
-HeistToTheMuseum was developed at [Aveiro University](https://www.ua.pt) in the course [Distributed Systems](http://www.ua.pt/ensino/uc/2855) for academic purposes and intents to demonstrate the steps needed to implement 3 distributed solutions of the "Heist To The Museum".
+HeistToTheMuseum was developed at [Aveiro University](https://www.ua.pt) in the course [Distributed Systems](http://www.ua.pt/ensino/uc/2855) for academic purposes and intents to demonstrate the steps needed to implement 3 computationally distributed solutions of the "Heist To The Museum".
 
 ## What is "Heist to the museum"?
 
